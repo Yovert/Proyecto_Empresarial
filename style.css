@@ -5,3 +5,116 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
+.Tarea__deeper{
+    background: #1F2732;
+    background-image: url(./Repositorio_Homepage/Photo_fondo.png);
+}
+.encabezado{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.Tarea__title{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.Tarea__buttons{
+    display: flex;
+    align-items: center;
+}
+.Tarea__cart{
+    display: flex;
+    margin-right: 15px;
+    color: #fff;
+}
+.Tarea__button--book{
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+.Navegacion{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Tarea__nav ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #fff;
+}
+.Tarea__nav li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.Tarea__contactos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.Tarea__linea{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.Tarea__telefono{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.Tarea__correo{
+    display: flex;
+    align-items: center;
+}
+.Tarea__contactos-color{
+    color: #D1B06B;
+}
+.Tarea__correo-espacio{
+    padding: 0px 15px;
+}
+.Tarea__telefono--numero{
+    padding: 0px 15px;
+}
+.Tareas__Contenido{
+    border: 1px solid red;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    margin: auto;
+}
+.Tarea__Informacion{
+    padding: 50px 30px;
+}
+.Tarea__Informacion h2{
+    color: #fff;
+}
+.Tarea__Informacion p{
+    color: #D1B06B;
+}
+.Tarea__imagen{
+    width: 40vw;
+    border: 2px solid blue;
+}
+.Tarea__imagen img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 2px solid palevioletred;
+}
