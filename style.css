@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Outfit:wght@300;400;600&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -25,20 +27,27 @@ body{
     text-align: center;
     align-items: center;
     color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 65px;
 }
 .Tarea__buttons{
     display: flex;
     align-items: center;
+    
 }
 .Tarea__cart{
     display: flex;
     margin-right: 15px;
     color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
 }
 .Tarea__button--book{
     height: 50px;
-    width: 150px;
+    width: 17vw;
     border: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
 }
 .Navegacion{
     display: flex;
@@ -48,6 +57,7 @@ body{
     margin-top: 20px;
     align-items: center;
     margin-bottom: 20px;
+    
 }
 .Tarea__nav ul{
     display: flex;
@@ -56,6 +66,7 @@ body{
     justify-content: space-between;
     gap: 1rem;
     color: #fff;
+    font-family: 'Outfit', sans-serif;
 }
 .Tarea__nav li{
     cursor: pointer;
@@ -63,11 +74,19 @@ body{
     align-items: center;
     position: relative;
 }
+.Tarea__nav-pocision{
+    /* border: 1px solid; */
+    width: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
 .Tarea__contactos{
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
+    font-family: 'Outfit', sans-serif;
 }
 .Tarea__linea{
     display: flex;
@@ -93,28 +112,43 @@ body{
     padding: 0px 15px;
 }
 .Tareas__Contenido{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     margin: auto;
 }
 .Tarea__Informacion{
+    position: relative;
     padding: 50px 30px;
+    top: 20vh;
 }
 .Tarea__Informacion h2{
     color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
 }
 .Tarea__Informacion p{
     color: #D1B06B;
+    font-family: 'Outfit', sans-serif;
+    padding: 15px 0px;
 }
 .Tarea__imagen{
+    position: relative;
     width: 40vw;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .Tarea__imagen img{
-    position: relative;
-    width: 100%;
+    position: absolute;
+    right: -28vh;
     height: 100%;
-    border: 2px solid palevioletred;
+    /* border: 2px solid palevioletred; */
+}
+.Tarea__Informacion--button{
+    font-family: 'Outfit', sans-serif;
+    width: 15vw;
+    height: 10vh;
+    background: #D1B06B;
+    border: none;
+    font-size: 22px;
 }
