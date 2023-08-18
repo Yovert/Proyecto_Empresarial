@@ -232,4 +232,86 @@ body{
     border-radius: 5px;
     margin-right: 15px;
 }
-
+.Tarea__explore{
+    background: #161D27;
+    color: #fff;
+    height: 150vh;
+}
+.Tarea__explore h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+.Tarea__explore p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+.encabezado__explore{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20vh 0vh 10vh 0vh;
+    justify-content: space-between;
+}
+.Tarea__explore--info{
+    width: 40vw;
+}
+.Tarea__explore--info strong{
+    color: #D1B06B;
+}
+.Tarea__explore--bloques{
+    width: 80%;
+    max-width: max-content;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+.Tarea__explore--bloques_style{
+    width: 55vh;
+    height: 42vh;
+    padding: 20px ;
+    background: #1F2732;
+    margin-right: 10px;
+}
+.Tarea__explore--bloques_title{
+    margin: auto;
+    width: 90%;
+}
+.Tarea__explore--bloques_info{
+    padding: 5px ;
+    /* border: 1px solid; */
+    width: 90%;
+    margin: auto;
+}
+.Tarea__explore--bloques_linea {
+    margin: auto;
+    width: 90%;
+}
+.Tarea__explore--bloques_linea img{
+    width: 250px;
+}
+.Tarea__explore--bloques_btn{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    align-items: end;
+    padding: 20px 0px;
+    /* border: 1px solid; */
+}
+.Tarea__explore--bloques_btn img{
+    width: 50px;
+}
+.Tarea__explore--bloques_btn button{
+    width: 9vw;
+    height: 6vh;
+    font-family: 'Outfit', sans-serif;
+    background: #161D27;
+    color: #fff;
+    border: none;
+}
+.btn_explore--color button{
+    background: #D1B06B;
+    color: black;
+}
