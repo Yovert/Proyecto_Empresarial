@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Outfit:wght@300;400;600&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Luxurious+Script&family=Outfit:wght@300;400;600&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -25,20 +30,27 @@ body{
     text-align: center;
     align-items: center;
     color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 65px;
 }
 .Tarea__buttons{
     display: flex;
     align-items: center;
+    
 }
 .Tarea__cart{
     display: flex;
     margin-right: 15px;
     color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
 }
 .Tarea__button--book{
     height: 50px;
-    width: 150px;
+    width: 17vw;
     border: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
 }
 .Navegacion{
     display: flex;
@@ -48,6 +60,7 @@ body{
     margin-top: 20px;
     align-items: center;
     margin-bottom: 20px;
+    
 }
 .Tarea__nav ul{
     display: flex;
@@ -56,6 +69,7 @@ body{
     justify-content: space-between;
     gap: 1rem;
     color: #fff;
+    font-family: 'Outfit', sans-serif;
 }
 .Tarea__nav li{
     cursor: pointer;
@@ -63,11 +77,19 @@ body{
     align-items: center;
     position: relative;
 }
+.Tarea__nav-pocision{
+    /* border: 1px solid; */
+    width: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
 .Tarea__contactos{
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
+    font-family: 'Outfit', sans-serif;
 }
 .Tarea__linea{
     display: flex;
@@ -93,28 +115,121 @@ body{
     padding: 0px 15px;
 }
 .Tareas__Contenido{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     margin: auto;
 }
 .Tarea__Informacion{
+    position: relative;
     padding: 50px 30px;
+    top: 20vh;
 }
 .Tarea__Informacion h2{
     color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
 }
 .Tarea__Informacion p{
     color: #D1B06B;
+    font-family: 'Outfit', sans-serif;
+    padding: 15px 0px;
 }
 .Tarea__imagen{
+    position: relative;
     width: 40vw;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .Tarea__imagen img{
-    position: relative;
-    width: 100%;
+    position: absolute;
+    right: -28vh;
     height: 100%;
-    border: 2px solid palevioletred;
+    /* border: 2px solid palevioletred; */
 }
+.Tarea__Informacion--button{
+    font-family: 'Outfit', sans-serif;
+    width: 15vw;
+    height: 10vh;
+    background: #D1B06B;
+    border: none;
+    font-size: 22px;
+}
+.Tarea__choice{
+    background: #1F2732;
+    display: flex;
+    height: 100vh;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+}
+.Tarea__choice-img{
+    display: grid;
+}
+.Tarea__choice-img img{
+    width: 350px;
+    padding: 15px 0px;
+}
+.Tarea__choice-contenido{
+    padding: 0px 20px;
+    height: 85vh;
+    /* border: 1px solid beige; */
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+}
+.Tarea__choice-title{
+    padding: 20px 0px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.Tarea__choice-final{
+    display: flex;
+       
+}
+.Tarea__choice-usuario{
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+}
+.Tarea__choice-imagen_usuario{
+    background: #161D27;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.Tarea__choice-nombre_usuario{  
+    font-family: 'Luxurious Script', cursive;
+    font-size: 35px;
+    font-weight: 400;
+}
+.Tarea__choice-case{
+    display: flex;
+    width: 18vw;
+    height: 12vh;
+    align-items: center;
+    padding: 0px 40px;
+    background: #3B434E;
+    margin-right: 20px;
+}
+.Tarea__choice-case img{
+    width: 50px;
+    margin-right: 15px;
+}
+.Tarea__choice-years{
+    display: flex;
+    width: 18vw;
+    height: 12vh;
+    align-items: center;
+    background: #D1B06B;
+    padding: 0px 40px;
+    color: black;
+}
+.Tarea__choice-years img{
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
