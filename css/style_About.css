@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: Cormorant Garamond;
+}
+body{
+    background-color: #1F2732;
+    padding: 3% 10%;
+}
+/* Este codigo es el banner */
+.contenedor_banner{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.contenedor_banner_contenido{
+    
+}
