@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #fff;
     font-family: Cormorant Garamond;
 }
 body{
@@ -15,6 +15,24 @@ body{
     width: 100%;
     justify-content: space-between;
 }
+.titulo_logo{
+    font-size: 50px;
+}
 .contenedor_banner_contenido{
-    
+    display: flex;
+    align-items: center;
+}
+.contenedor_banner--espacio{
+    gap: 50px;
+}
+.contenedor_espacio{
+    gap: 10px;
+}
+.imagen_cart{
+    width: 30%;
+}
+.boton_consultar{
+    background-color: #353c46;
+    border: none;
+    padding: 20px;
 }
