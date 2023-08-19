@@ -317,3 +317,123 @@ body{
     background: #D1B06B;
     color: black;
 }
+.Tarea__trouble{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20vh;
+}
+.Tarea__trouble h2 {
+    font-family: 'Cormorant Garamond', serif ;
+}
+.Tarea__trouble h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+}
+.Tarea__trouble p{
+    font-family: 'Outfit', sans-serif;
+}
+.Tarea__trouble--title{
+    width: 15vw;
+    margin: auto;
+}
+.Tarea__trouble--title img{
+    margin-top: 10px;
+}
+.Tarea__trouble--info{
+    color: #909090;
+    width: 42vw;
+    padding: 6vh 0vh;
+    margin: auto;
+}
+.Tarea__trouble--notifi{
+    display: flex;
+    width: 70vw;
+    /* border: 1px solid; */
+    align-items: center;
+    padding: 5px;
+}
+.Tarea__trouble--notifi_trusted{
+    display: flex;
+    width: 32%;
+    height: 100px;
+    align-items: center;
+    background: #d7d7d749;
+    margin-right: 20px;
+}
+.Tarea__trouble--notifi_trusted--bucle{
+    position: relative;
+}
+.Tarea__trouble--notifi_trusted--bucle img{
+    width: 80%;
+}
+.Tarea__trouble--notifi_trusted--bucle-corazon{
+    position: absolute;
+    top: 35%;
+    left: 33%;
+}
+.estrella{
+    top: 25%;
+    left: 30%;
+    width: 40%;
+}
+.Tarea__trouble--notifi_trusted--bucle-corazon p{
+    font-weight: 600;
+}
+.Tarea__trouble--notifi_trusted--bucle-corazon img{
+    width: 50%;
+}
+.Tarea__trouble--notifi_trusted--info{
+    width: 70%;
+    height: 50px;
+    display: grid;
+    text-align: left;
+}
+.Tarea__trouble--notifi-imagen img{
+    width: 100%;
+    height: 100px;
+}
+
+.Tarea__trouble--notifi-imagen{
+    width: 32%;
+    height: 80%;
+    position: relative;
+}
+.Tarea__trouble--notifi-imagen--info{
+    position: absolute;
+    top: 20px;
+    color: #fff;
+    width: 50%;
+    text-align: left;
+    margin-left: 5vh;
+}
+.Tarea__trouble--notifi-imagen--info h3{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.Tarea__trouble--title_meet{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+}
+.Tarea__trouble--guias{
+    position: relative;
+    top: 15vh;
+    width: 55vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.Tarea__trouble--guias img{
+   width: 120px;
+}
+.Tarea__trouble--guias-grande {
+    width: 50px;
+    height: 70px;
+}
