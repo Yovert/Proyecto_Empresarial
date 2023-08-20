@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1f2732;
+}
+.hed__encabezado{
+    background-image: url(/imagenes/img/Photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1f2732;
+    height: 30vw;
+}
+.hed__mover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 190px;
+}
+.hed__blanco, .bg__blanco{
+    color:  white;
+}
+.hed__conter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.bg__color{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.bg__estilo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.enlace__color{
+    background-color: #d7d7d744;
+    padding: 20px 20px;
+    border-radius: 2px;
+}
+.enlace__color a{
+    text-decoration: none;
+    color: white;
+}
+.na__navegar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 190px;
+}
+.contac__empresa{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contac__borde {
+    border: 1px solid wheat;
+    padding: 12px;
+    border-radius: 60px;
+    display: flex;
+}
+.contac__telefo, .contac__email{
+    display: flex;
+    align-items: center;
+}
+.contac__colum{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.contac__color{
+    color: #d1b06b;
+}
+.contac__white{
+    color: white;
+}
+.na__enlaces{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.na__enlaces a{
+    text-decoration: none;
+    color: white;
+}
+.infor__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.cards__central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.cards__grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 12px;
+}
+.cards__present{
+    background-color: #161d27;
+    width: 320px;
+    position: relative;
+}
+.cards__img{
+    height: 140px;
+    width: 100%;
+}
+.cards__infor{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.cards__buton{
+ padding: 10px 20px;
+ cursor: pointer;
+ border: none;
+ background-color: #161d27;
+ color: white;
+}
+.list__color{
+    color: #d1b06b;
+}
+.cards__infor h3{
+   color: white;
+}
+.cards__infor, .cards__color{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.627);
+}
+.list__col{
+    color: #d1b06b;
+}
+.cards__betun{
+    position: absolute;
+    right: 32%;
+    top: 18%;
+}
+.presentado__empresa{
+    background-color: white;
+}
+.presentado__mover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 50px;
+}
+.presentado__img{
+    display: flex;
+    align-items: center;
+}
+.logiar__img{
+    height: 40px;
+    padding: 0 20px;
+}
+.final__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+ 
+.final__infor{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    
+}
+.final__inform{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 60px;
+    
+}
+.final__h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.646);
+}
+.final__lado{
+    display: flex;
+    gap: 30px;
+    
+}
+.final__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.final__contenedor p{
+    font-size: 13px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.43);
+}
+.final__lado1{
+    display: flex;
+    gap: 20px;
+    padding-left: 110px;
+    padding-top: 25px;
+}
+.final__mijo{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 25px;   
+}
+
+.final__subir{
+    padding-bottom: 45px;
+    padding-left: 20px;
+}
+.final__contenedor--mover{
+    padding-left: -60%;
+}
+.final__subir--active{
+ padding-bottom: 30px;
+ padding-right: 130px;
+}
+.infor__post span{
+    color: #d1b06b;
+}
+ 
+.infor__post{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.infor__post p{
+    color: white;
+}
+.infor__post picture{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
