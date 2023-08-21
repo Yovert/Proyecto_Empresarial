@@ -93,30 +93,46 @@ body{
     align-items: center;
     gap: 10px;
 }
-.conte__infor{
-    background-color:  #161d27;
-    width: 320px;
+.infor__texto h2{
+    color: white;
 }
-
+.conte__grid{
+ display: flex;
+ flex-direction: column;
+}
+.bd__estilo{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 60px;
+}
 .img__testi{
   display: flex;
   align-items: center;
 }
 .conte__mv{
     display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    flex-direction: column;
+    background-color:  #161d27;
+    width: 360px;
+}
+.img__testio{
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px;
 }
 
-.img__testi, .img__testi{
+.img__testi{
     height: 40px;
 }
 .img__comillas{
     height: 20px;
 }
 .testi__infor{
-    padding: 20px 30px ;
+    padding: 20px 10px ;
 
 }
 .testi__infor p{
@@ -131,4 +147,206 @@ body{
  color: rgba(255, 255, 255, 0.838);
  padding: 0 10px;
 }
+.infor__professional{
+    padding-top: 45px;
+}
+.infor__oscuro{
+    background-color:#161d27;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+    align-items: center;
+}
+.infor__present h3{
+    color: white;
+    padding-bottom: 15px;
+}
+.infor__present p{
+    color: rgba(255, 255, 255, 0.883);
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.picture__img img{
+    height: 40px;
+}
+.estilos__infor{
+    background-color: white;
+    padding: 40px 40px;
+}
+.estilos__conten{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.estilos__conten p{
+    color: rgba(0, 0, 0, 0.571);
+}
+.estilo__img {
+    display: flex;
+    align-items: center;
+}
+.estilo__bd{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.estilo__central{
+    flex-direction: column;
+}
+.estilo__img p{
+    color: black;
+}
+.estilo__tele{
+    font-size: 12px;
+}
+.boton__button button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #d1b06b;
+}
 
+.formulario__bg{
+    background-image: url(/imagenes/img/Photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.formulario__mover{
+  background-color: #1f2732;
+  display: flex;
+  position: absolute;
+  top: 60px;
+
+}
+.formulario__central{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: baseline;
+    padding: 20px;
+    padding-bottom: 65px;
+}
+.formulario__infor{
+    padding: 20px 50px;
+    position: relative;
+}
+.formulario__infor input{
+    width: 230px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid blueviolet ;
+}
+.formulario__infor label{
+  position: absolute;
+  left: 65px;
+  top: 0;
+  color: white;
+} 
+.formu__buton{
+  position: absolute;
+  top: 75%;
+  left: 40%;
+}
+.formulario__button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.logiar__img{
+    height: 40px;
+    padding: 0 20px;
+}
+.final__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+ 
+.final__infor{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    
+}
+.final__inform{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 60px;
+    
+}
+.final__h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.final__h3 h3{
+    color: white;
+}
+.final__lado{
+    display: flex;
+    gap: 30px;
+    
+}
+.final__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.final__contenedor p{
+    font-size: 13px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.812);
+}
+.final__lado1{
+    display: flex;
+    gap: 20px;
+    padding-left: 110px;
+    padding-top: 25px;
+}
+.final__mijo{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 25px;   
+}
+
+.final__subir{
+    padding-bottom: 45px;
+    padding-left: 20px;
+}
+.final__contenedor--mover{
+    padding-left: -60%;
+}
+.final__subir--active{
+ padding-bottom: 30px;
+ padding-right: 130px;
+}
+.infor__post span{
+    color: #d1b06b;
+}
+.infor__post p{
+    color: white;
+}
+ 
+.infor__post{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 50px;
+}
+.infor__post picture{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
