@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1f2732;
+}
+.hed__encabezado{
+    background-image: url(/imagenes/img/Photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1f2732;
+    height: 30vw;
+}
+.hed__mover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 190px;
+}
+.hed__blanco, .bg__blanco{
+    color:  white;
+}
+.hed__conter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.bg__color{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.bg__estilo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.enlace__color{
+    background-color: #d7d7d744;
+    padding: 20px 20px;
+    border-radius: 2px;
+}
+.enlace__color a{
+    text-decoration: none;
+    color: white;
+}
+.na__navegar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 190px;
+}
+.contac__empresa{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contac__borde {
+    border: 1px solid wheat;
+    padding: 12px;
+    border-radius: 60px;
+    display: flex;
+}
+.contac__telefo, .contac__email{
+    display: flex;
+    align-items: center;
+}
+.contac__colum{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.contac__color{
+    color: #d1b06b;
+}
+.contac__white{
+    color: white;
+}
+.na__enlaces{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.na__enlaces a{
+    text-decoration: none;
+    color: white;
+}
+.infor__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.conte__infor{
+    background-color:  #161d27;
+    width: 320px;
+}
+
+.img__testi{
+  display: flex;
+  align-items: center;
+}
+.conte__mv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.img__testi, .img__testi{
+    height: 40px;
+}
+.img__comillas{
+    height: 20px;
+}
+.testi__infor{
+    padding: 20px 30px ;
+
+}
+.testi__infor p{
+    color: rgba(255, 255, 255, 0.783);
+}
+.img__conteni{
+    display: flex;
+    align-items: center;
+}
+.img__conteni p {
+ font-size: 12px;
+ color: rgba(255, 255, 255, 0.838);
+ padding: 0 10px;
+}
+
