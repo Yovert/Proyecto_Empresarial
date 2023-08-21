@@ -24,7 +24,11 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15vh;
-    padding-bottom: 70px;
+}
+.imagen_fondo{
+    position: absolute;
+    height: 90vh;
+    width: 98.7vw;
 }
 .titulo_Business{
     display: flex;
@@ -93,7 +97,7 @@ body{
 .seccion_Introduction{
     display: flex;
     flex-direction: column;
-    padding: 10% 0 0px 0px;
+    padding: 15% 0 0px 0px;
     align-items: center;
     gap: 50px;
 }
