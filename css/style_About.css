@@ -4,10 +4,11 @@
     box-sizing: border-box;
     color: #fff;
     font-family: 'Cormorant Garamond', serif;
-
+    font-weight: 100;
 }
 p{
     font-family: 'Outfit', sans-serif;
+    font-weight: 100;
 }
 body{
     background-color: #161D27;
@@ -345,7 +346,7 @@ body{
     width: 7vw;
 }
 
-/* contenido de la seccion #6 */
+/* contenido de la seccion del footer */
 footer{
     display: flex;
     flex-direction: column;
