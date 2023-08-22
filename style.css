@@ -13,6 +13,7 @@
 body{
     width: 100%;
 }
+    /* seccion 1 */
 .Tarea__deeper{
     background: #1F2732;
     background-image: url(./Repositorio_Homepage/Photo_fondo.png);
@@ -51,6 +52,8 @@ body{
     border: none;
     font-family: 'Outfit', sans-serif;
     font-size: 22px;
+    background: rgba(255, 255, 255, 0.10);
+    color: #fff;
 }
 .Navegacion{
     display: flex;
@@ -155,6 +158,7 @@ body{
     border: none;
     font-size: 22px;
 }
+    /* seccion 2 */
 .Tarea__choice{
     background: #1F2732;
     display: flex;
@@ -232,6 +236,7 @@ body{
     border-radius: 5px;
     margin-right: 15px;
 }
+    /* seccion 3 */
 .Tarea__explore{
     background: #161D27;
     color: #fff;
@@ -314,4 +319,264 @@ body{
 .btn_explore--color button{
     background: #D1B06B;
     color: black;
+}
+    /* seccion 4 */
+.Tarea__trouble{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20vh;
+}
+.Tarea__trouble h2 {
+    font-family: 'Cormorant Garamond', serif ;
+}
+.Tarea__trouble h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+}
+.Tarea__trouble p{
+    font-family: 'Outfit', sans-serif;
+}
+.Tarea__trouble--title{
+    width: 15vw;
+    margin: auto;
+}
+.Tarea__trouble--title img{
+    margin-top: 10px;
+}
+.Tarea__trouble--info{
+    color: #909090;
+    width: 42vw;
+    padding: 6vh 0vh;
+    margin: auto;
+}
+.Tarea__trouble--notifi{
+    display: flex;
+    width: 70vw;
+    /* border: 1px solid; */
+    align-items: center;
+    padding: 5px;
+}
+.Tarea__trouble--notifi_trusted{
+    display: flex;
+    width: 32%;
+    height: 100px;
+    align-items: center;
+    background: #d7d7d749;
+    margin-right: 20px;
+}
+.Tarea__trouble--notifi_trusted--bucle{
+    position: relative;
+}
+.Tarea__trouble--notifi_trusted--bucle img{
+    width: 80%;
+}
+.Tarea__trouble--notifi_trusted--bucle-corazon{
+    position: absolute;
+    top: 35%;
+    left: 33%;
+}
+.estrella{
+    top: 25%;
+    left: 30%;
+    width: 40%;
+}
+.Tarea__trouble--notifi_trusted--bucle-corazon p{
+    font-weight: 600;
+}
+.Tarea__trouble--notifi_trusted--bucle-corazon img{
+    width: 50%;
+}
+.Tarea__trouble--notifi_trusted--info{
+    width: 70%;
+    height: 50px;
+    display: grid;
+    text-align: left;
+}
+.Tarea__trouble--notifi-imagen img{
+    width: 100%;
+    height: 100px;
+}
+
+.Tarea__trouble--notifi-imagen{
+    width: 32%;
+    height: 80%;
+    position: relative;
+}
+.Tarea__trouble--notifi-imagen--info{
+    position: absolute;
+    top: 20px;
+    color: #fff;
+    width: 50%;
+    text-align: left;
+    margin-left: 5vh;
+}
+.Tarea__trouble--notifi-imagen--info h3{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.Tarea__trouble--title_meet{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+}
+.Tarea__trouble--guias{
+    position: relative;
+    top: 15vh;
+    width: 55vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.Tarea__trouble--guias img{
+   width: 120px;
+}
+.Tarea__trouble--guias-grande {
+    width: 50px;
+    height: 70px;
+}
+/* seccion 5 */
+.Tarea__lawyers{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./Repositorio_Homepage/fondo5_2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    color: #fff;
+}
+.Tarea__lawyers--bloque{
+    display: flex;
+    width: 70%;
+    height: 110vh;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    padding: 50px 20px;
+    font-family: 'Outfit', sans-serif;
+    background: rgba(31, 39, 50, 0.85);
+}
+.Tarea__lawyers--historia{
+    width: 90vw;
+}
+.Tarea__lawyers--historia p{
+    font-size: 14px;
+    color: #D7D7D7;
+}
+.Tarea__lawyers h2{
+    font-family: 'Cormorant Garamond', serif;
+}
+.Tarea__lawyers--historia--opening{
+    padding: 10px 0px;
+
+}
+.Tarea__lawyers--historia--opening h4{
+    color: #D1B06B;
+    padding: 10px 0px;
+}
+.Tarea__lawyers--imagen{
+    height: 88vh;
+}
+.Tarea__lawyers--experienced{
+    border: 1px solid;
+    padding: 0px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Tarea__lawyers--experienced--info{
+    font-size: 14px;
+    color: #D7D7D7;
+}
+.Tarea__lawyers--experienced--pocent-espacio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Tarea__lawyers--experienced--pocent-blanco{
+    position:static;
+    border: 1px solid black;
+}
+
+    /* seccion #6 */
+.Tarea__client{
+    background: #1F2732;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.Tarea__client h2{
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 15px;
+}
+.Tarea__client h3{
+    font-family: 'Cormorant Garamond', serif;
+}
+.Tarea__client p{
+    font-family: 'Outfit', sans-serif;
+}
+.Tarea__client--bloque{
+    position: relative;
+    top: 20vh;
+    width: 80%;
+    margin: auto;
+}
+.Tarea__client--usuario{
+    width: 40vh;
+    height: 55vh;
+}
+.Tarea__client--bloque-usuarios{
+    display: flex;
+    position: relative;
+    width: max-content;
+    margin: auto;
+    top: 5vh;
+}
+.Tarea__client--usuario-info_fondo{
+    background: #2E3947;
+    height: 65%;
+    width: 90%;
+    padding: 20px;
+    border-radius: 1px 1px 1px 30px;
+}
+.Tarea__client--usuario-info{
+    width: 95%;
+    margin: auto;
+    text-align: left;
+}
+.Tarea__client--usuario-info p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.Tarea__client--usuario-imagen{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+.Tarea__Client-revers{
+    top: 0;
+}
+.Tarea__Client-revers--fondo{
+    position: relative;
+    top: 15px;
+}
+.Tarea__client--usuario-imagen img{
+    border-radius: 50%;
+}
+.Tarea__client--usuario-nombre p{
+    font-size: 14px;
+}
+.Tarea__client--usuario-nombre{
+    margin-left: 10px;
+    text-align: left;
 }
