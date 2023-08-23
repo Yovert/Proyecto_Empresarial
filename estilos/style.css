@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1f2732;
+}
+.hed__encabezado{
+    background-image: url(/imagenes/img/Photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1f2732;
+    height: 30vw;
+}
+.hed__mover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 190px;
+}
+.hed__blanco, .bg__blanco{
+    color:  white;
+}
+.hed__conter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.bg__color{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.bg__estilo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.enlace__color{
+    background-color: #d7d7d744;
+    padding: 20px 20px;
+    border-radius: 2px;
+}
+.enlace__color a{
+    text-decoration: none;
+    color: white;
+}
+.na__navegar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 190px;
+}
+.contac__empresa{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contac__borde {
+    border: 1px solid wheat;
+    padding: 12px;
+    border-radius: 60px;
+    display: flex;
+}
+.contac__telefo, .contac__email{
+    display: flex;
+    align-items: center;
+}
+.contac__colum{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.contac__color{
+    color: #d1b06b;
+}
+.contac__white{
+    color: white;
+}
+.na__enlaces{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.na__enlaces a{
+    text-decoration: none;
+    color: white;
+}
+.infor__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.explore__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 160px;
+}
+.explore__info p{
+    color:  white;
+}
+.explore__info span{
+    color: #d1b06b;
+}
+.explore__tipo p{
+    font-weight: 300;
+    font-size: 30px;
+}
+.cards__general{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 10px;
+    align-items: center;   
+}
+.section__general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards__tarjetas{
+    background-color: #161d27;
+    width: 280px;
+    border-radius: 5px;
+}
+.cards__info{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+.cards__info h3, p{
+    color: white;
+}
+.cards__logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    padding-bottom: 20px;
+}
+.cards__img{
+    height: 30px;
+}
+.cards__button{
+    background-color:#1f2732;
+    padding: 8px 8px;
+    border-radius: 2px;
+}
+.cards__button button{
+    border: none;
+    color: white;
+    background-color:#1f2732;
+    cursor: pointer;
+}
+.cards__button--bg{
+    background-color: #d1b06b;
+}
+.cards__button--bg button {
+    background-color:#d1b06b; 
+    color: black;
+}
+.infor__professional{
+    padding-top: 45px;
+}
+.infor__oscuro{
+    background-color:#161d27;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+    align-items: center;
+}
+.infor__present h3{
+    color: white;
+    padding-bottom: 15px;
+}
+.infor__present p{
+    color: rgba(255, 255, 255, 0.883);
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.picture__img img{
+    height: 40px;
+}
+.estilos__infor{
+    background-color: white;
+    padding: 40px 40px;
+}
+.estilos__conten{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.estilos__conten p{
+    color: rgba(0, 0, 0, 0.571);
+}
+.estilo__img {
+    display: flex;
+    align-items: center;
+}
+.estilo__bd{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.estilo__central{
+    flex-direction: column;
+}
+.estilo__img p{
+    color: black;
+}
+.estilo__tele{
+    font-size: 12px;
+}
+.boton__button button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #d1b06b;
+}
+.formulario__bg{
+    background-image: url(/imagenes/img/Photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.formulario__mover{
+  background-color: #1f2732;
+  display: flex;
+  position: absolute;
+  top: 60px;
+
+}
+.formulario__central{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: baseline;
+    padding: 20px;
+    padding-bottom: 65px;
+}
+.formulario__infor{
+    padding: 20px 50px;
+    position: relative;
+}
+.formulario__infor input{
+    width: 230px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid blueviolet ;
+}
+.formulario__infor label{
+  position: absolute;
+  left: 65px;
+  top: 0;
+  color: white;
+} 
+.formu__buton{
+  position: absolute;
+  top: 75%;
+  left: 40%;
+}
+.formulario__button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.presentado__empresa{
+    background-color: white;
+}
+.presentado__mover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 50px;
+}
+.presentado__img{
+    display: flex;
+    align-items: center;
+}
+.logiar__img{
+    height: 40px;
+    padding: 0 20px;
+}
+.final__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+ 
+.final__infor{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    
+}
+.final__inform{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 60px;
+    
+}
+.final__h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.final__lado{
+    display: flex;
+    gap: 30px;
+    
+}
+.final__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.final__contenedor p{
+    font-size: 13px;
+    cursor: pointer;
+}
+.final__lado1{
+    display: flex;
+    gap: 20px;
+    padding-left: 110px;
+    padding-top: 25px;
+}
+.final__mijo{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 25px;   
+}
+
+.final__subir{
+    padding-bottom: 45px;
+    padding-left: 20px;
+}
+.final__contenedor--mover{
+    padding-left: -60%;
+}
+.final__subir--active{
+ padding-bottom: 30px;
+ padding-right: 130px;
+}
+.infor__post span{
+    color: #d1b06b;
+}
+ 
+.infor__post{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 50px;
+}
+.infor__post picture{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
