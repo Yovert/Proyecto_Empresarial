@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+}
+p{
+    font-family: 'Outfit', sans-serif;
+}
+li{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: #1f2732;
+}
+
+/* Este codigo es el banner */
+.seccion_Attorneyster{
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15vh;
+    padding-bottom: 70px;
+}
+.titulo_Business{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.titulo_Business h2{
+    font-size: 40px;
+}
+.contenedor_banner{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #353c46 ;
+    padding: 3% 0px;
+}
+.titulo_logo{
+    font-size: 50px;
+}
+.contenedor_banner_contenido{
+    display: flex;
+    align-items: center;
+}
+.contenedor_banner--espacio{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.contenedor_espacio{
+    gap: 10px;
+}
+.imagen_cart{
+    width: 27%;
+}
+.boton_consultar{
+    background-color: #353c46;
+    border: none;
+    padding: 20px;
+}
+.contenedor_contactos{
+    display: flex;
+    gap: 25px;
+}
+.img_contacto{
+    border: 2px solid #D1B06B;
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    align-content: center;
+}
+.text_contacto{
+    display: flex;
+    gap: 20px;
+}
+.contenedor_banner_contenido--espacio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.texto_dorado{
+    color: #D1B06B;
+}
+
+/* contenido de la seccion #1 */
+.seccion_Graphics{
+    padding: 20vh 10vw;
+}
+.contenido_Graphics{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40vh;
+    row-gap: 25vh;
+}
+.espacio_Icons{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.espacio_Icons h3{
+    font-size: 30px;
+}
+.parrafos_separados{
+   display: flex;
+   flex-direction: column;
+   gap: 1.5vh;
+}
+span{
+    color: #D1B06B;
+    font-family: 'Outfit', sans-serif;
+
+}
+.contenedor_contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.contenido_espaciado{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.contenido_titulos{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.contenido_titulos h5{
+    font-size: 20px;
+    font-weight: 300;
+    color: #D1B06B;
+}
+.contenido_titulos h6{
+    font-size: 15px;
+    color: #D1B06B;
+}
+
+/* contenido de la seccion footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 20vh 0px;
+}
+.titulo_Attorneyster{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.icono_lateral{
+    width: 25vw;
+}
+.contenedor_Attorneyster{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.titulos_footer{
+    font-size: 25px;
+    padding: 30px 0px;
+    border-top: 1px solid #4a535f;
+    border-bottom: 1px solid #4a535f;
+}
+.contenido_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+.footer--dividido{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.parrafos_divididos{
+    padding-bottom: 6px;
+}
+.contenedor_Copyright{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.footer_linear{
+    display: flex;
+    gap: 3px;
+}
+.footer_separacion{
+    display: flex;
+    gap: 20px;
+}
+.footer_logos{
+    display: flex;
+    gap: 20px;
+}
