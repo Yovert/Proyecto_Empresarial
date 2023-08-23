@@ -6,6 +6,14 @@
     font-family: 'Cormorant Garamond', serif;
     font-weight: 100;
 }
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+  
+input[type=number] {
+    -moz-appearance:textfield;
+}
 p{
     font-family: 'Outfit', sans-serif;
 }
@@ -18,15 +26,11 @@ body{
 
 /* Este codigo es el banner */
 .seccion_Attorneyster{
-    padding: 0px 10% 50px 10%;
+    padding: 0px 10%;
     display: flex;
     flex-direction: column;
     gap: 15vh;
-}
-.imagen_fondo{
-    position: absolute;
-    height: 90vh;
-    width: 98.7vw;
+    padding-bottom: 70px;
 }
 .titulo_Business{
     display: flex;
@@ -92,82 +96,136 @@ body{
 }
 
 /* contenido de la seccion #1 */
-.contenedor_Failing{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contenedor_Failing img{
-    width: 80vw;
-}
-.contendor_contenido{
+.seccion_Peeter{
     display: grid;
+    padding: 20vh 10% 30vh 10%;
+    gap: 50px;
+}
+.contenedor_Peeter{
+    display: flex;
+    align-items: center;
     gap: 30px;
-    padding: 20px 13%;
 }
-.contenedor_titulo{
-    padding-bottom: 20px ;
-    border-bottom: 1px solid #4a535f;
+.parrafo_Peeter{
+    display: grid;
+    gap: 15px;
 }
-.contenedor_titulo h2{
-    font-size: 55px;
-}
-.contendor_contenido h3{
-    font-size: 30px;
-}
-.contenedor_dorado{
-    background-color: #D1B06B;
-    padding: 20px;
-    
-}
-.parrafo_contenedor{
-    text-align: center;
-    color: #161D27;
+.parrafo_Peeter h4{
     font-size: 20px;
-    font-weight: 600;
 }
-ul{
-    padding-left: 20px;
+.espacio_Vegas{
+    border-left: 1px solid #4a535f;
+    border-right: 1px solid #4a535f;
+    padding: 10px 40px;
+}
+.espacio_adicional{
+    width: 50vw;
+}
+.contenedor_epacio{
     display: grid;
-    gap: 10px;
+    gap: 5vh;
 }
-ol{
-    padding-left: 25px;
-    display: grid;
-    gap: 10px;
-}
-
-/* contenido de la seccion#2 */
-.seccion_John{
-    background-color: #fff;
-    padding: 50px 20%;
+.contenedor_input{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 10vh 10vw;
+    background-color: #161D27;
+
 }
-.contenedor_John{
+.input_epacio{
+    display: grid;
+    gap: 50px;
+}
+.input_epacio input{
+    background-color: #161D27;
+    width: 30vw;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #4a535f;
+    outline: none;
+}
+input::placeholder{
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    align-items: baseline;
+    font-weight: 500;
+    font-size: 15px;
+}
+.contenedor_Messsage{
+    display: grid;
+    gap: 3vh;
+}
+.contenedor_Messsage input{
     display: flex;
-    gap: 20px;
+    background-color: #161D27;
+    padding: 5vh 15vw 12vh 5vh;
+    color: #fff;
+    border: 1px solid #D1B06B;
+    outline: none;
 }
-.imagen_John{
-    border-radius: 50%;
-    height: 30vh;
+.boton_Messsage{
+    background-color: #D1B06B;
+    border: none;
+    padding: 20px 40px;
 }
-.perfil_John{
+.boton_Messsage p{
+    color: #1f2732;
+    font-weight: bold;
+}
+.contenedor_Send{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
-.perfil_John h3{
+.contenedor_contacto{
+    display: flex;
+    gap: 5vw;
+}
+.fondo_oscuro{
+    background-color: #161D27;
+    padding: 1vw 4vw;
+}
+.mas_padding{
+    padding: 1vw 10vw 1vw 3vw;
+}
+
+/* contenido de la seccion #2 */
+.seccion_Simple{
+    background-color: #fff;
+    display: grid;
+    padding: 20vh 10%;
+    gap: 15vh;
+}
+.titulo_Simple{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.titulo_Simple h3{
     color: #161D27;
     font-size: 30px;
 }
-.perfil_John p{
+.titulo_Simple p{
     color: #161D27;
+    text-align: center;
 }
-.imagenes_John{
-    display: flex;
-    gap: 20px;
+.contenedores_Simple{
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    justify-content: center;
+    gap: 3vw;
 }
+.Simple_texto h4{
+    color: #161D27;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.Simple_texto p{
+    color: #161D27;
+    font-weight: 300;
+}
+
 
 /* contenido de la seccion footer */
 footer{
