@@ -11,7 +11,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #1f2732;
-    height: 30vw;
+    
 }
 .hed__mover{
     display: flex;
@@ -92,6 +92,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding-bottom: 50px;
 }
 .cards__central{
     display: flex;
@@ -235,7 +236,7 @@ body{
  
 .infor__post{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 30px;
 }
