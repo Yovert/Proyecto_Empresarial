@@ -1,28 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Outfit:wght@300;400;600&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Luxurious+Script&family=Outfit:wght@300;400;600&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Luxurious+Script&family=Outfit:wght@300;400;600&display=swap');
+
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    color: #fff;
+}
+h1{
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 100;
+}
+h2{
+    font-family: 'Cormorant Garamond', serif;
+}
+h3{
+    font-family: 'Cormorant Garamond', serif;
+}
+h4{
+    font-family: 'Cormorant Garamond', serif;
 }
 p{
     font-family: 'Outfit', sans-serif;
 }
-li{
-    font-family: 'Outfit', sans-serif;
-}
 body{
-    background-color: #1f2732;
+    width: 100%;
 }
-
-/* Este codigo es el banner */
 .seccion_Attorneyster{
-    padding: 0px 10%;
+    padding: 0px  10%;
     display: flex;
     flex-direction: column;
     gap: 15vh;
-    padding-bottom: 5%;
+    color: #fff;
+    background: #1F2732;
 }
 .titulo_Business{
     display: flex;
@@ -38,7 +51,7 @@ body{
     width: 100%;
     justify-content: space-between;
     border-bottom: 1px solid #353c46 ;
-    padding: 3% 0px;
+    padding: 20px 0px;
 }
 .titulo_logo{
     font-size: 50px;
@@ -58,10 +71,14 @@ body{
 .imagen_cart{
     width: 27%;
 }
-.boton_consultar{
+.boton_consultar button{
+    font-family: 'Outfit', sans-serif;
+    width: 15vw;
+    height: 10vh;
     background: rgba(255, 255, 255, 0.10);
     border: none;
-    padding: 20px;
+    font-size: 18px;
+    color: #fff;
 }
 .contenedor_contactos{
     display: flex;
@@ -86,47 +103,48 @@ body{
 .texto_dorado{
     color: #D1B06B;
 }
-
-/* contenido de la seccion #1 */
-.seccion_Introduction{
-    display: flex;
-    flex-direction: column;
-    padding: 10% 0 0px 0px;
-    align-items: center;
-    gap: 50px;
+.Tarea__contenido--404{
+    width: 35vw;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px;
 }
-.img_museo{
-    width: 80vw;
+.contenido--404_image img{
+    width: 100%;
 }
-.Introduction_contenido{
-    display: flex;
-    flex-direction: column;
-    width: 80vw;
-    gap: 30px;
-    border-bottom: 1px solid #4a535f;
-    padding-bottom: 10%;
+.contenido--404_image{
+    padding-bottom: 20px;
 }
-.Introduction_contenido h3{
-    font-size:25px;
+.Tarea__contenido--404 h2{
+    font-size: 34px;
+    padding: 10px 0px;
 }
-ul{
-    margin-left: 35px;
-    display: grid;
-    gap: 15px;
+.Tarea__contenido--404 p{
+    font-size: 14px;
+    padding: 10px 0px;
 }
-ol{
-    margin-left: 15px;
-    display: grid;
-    gap: 15px;
+.contenido--404_btn{
+    padding: 10px 0px;
+    margin: auto
 }
-
-/* contenido de la seccion footer */
+.contenido--404_btn button{
+    width: 14vw;
+    height: 10vh;
+    font-family: 'Outfit', sans-serif;
+    background: #D1B06B;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* footer */
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
     padding: 20vh 0px;
+    background: #1F2732;
+    color: #fff;
 }
 .titulo_Attorneyster{
     display: flex;
@@ -143,7 +161,7 @@ footer{
 }
 .titulos_footer{
     font-size: 25px;
-    padding: 25px 0px;
+    padding: 20px 0px;
     border-top: 1px solid #4a535f;
     border-bottom: 1px solid #4a535f;
 }
@@ -152,22 +170,24 @@ footer{
     flex-direction: column;
     gap: 10px;
     padding-top: 20px;
+    font-weight: 100;
 }
 .footer--dividido{
     display: flex;
     gap: 20px;
     padding-top: 20px;
+    font-weight: 100;
 }
 .parrafos_divididos{
     padding-bottom: 6px;
 }
 .contenedor_Copyright{
     display: flex;
-    padding: 25px 0px;
-    border-bottom: 1px solid #4a535f;
-    border-top: 1px solid #4a535f;
     width: 80%;
     justify-content: space-between;
+    padding: 25px 0px;
+    border-bottom: 1px solid #3A4553;
+    border-top: 1px solid #3A4553;
 }
 .footer_linear{
     display: flex;

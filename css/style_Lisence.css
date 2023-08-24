@@ -22,7 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15vh;
-    padding-bottom: 70px;
+    padding-bottom: 5%;
 }
 .titulo_Business{
     display: flex;
@@ -59,7 +59,7 @@ body{
     width: 27%;
 }
 .boton_consultar{
-    background-color: #353c46;
+    background: rgba(255, 255, 255, 0.10);
     border: none;
     padding: 20px;
 }
@@ -163,7 +163,7 @@ footer{
 }
 .titulos_footer{
     font-size: 25px;
-    padding: 30px 0px;
+    padding: 25px 0px;
     border-top: 1px solid #4a535f;
     border-bottom: 1px solid #4a535f;
 }
@@ -183,6 +183,9 @@ footer{
 }
 .contenedor_Copyright{
     display: flex;
+    padding: 25px 0px;
+    border-bottom: 1px solid #4a535f;
+    border-top: 1px solid #4a535f;
     width: 80%;
     justify-content: space-between;
 }
