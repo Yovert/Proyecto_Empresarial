@@ -10,7 +10,7 @@ p{
     font-family: 'Outfit', sans-serif;
 }
 body{
-    background-color: #161D27;
+    background-color: #1f2732;
 }
 
 /* Este codigo es el banner */
@@ -46,7 +46,7 @@ body{
     width: 27%;
 }
 .boton_consultar{
-    background-color: #353c46;
+    background: rgba(255, 255, 255, 0.10);
     border: none;
     padding: 20px;
 }
@@ -145,7 +145,7 @@ body{
 }
 .color_fondo_Experienced{
     background-color: #D1B06B;
-    padding: 50px;
+    padding: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -368,7 +368,7 @@ footer{
 }
 .titulos_footer{
     font-size: 25px;
-    padding: 30px 0px;
+    padding: 25px 0px;
     border-top: 1px solid #4a535f;
     border-bottom: 1px solid #4a535f;
 }
@@ -388,6 +388,9 @@ footer{
 }
 .contenedor_Copyright{
     display: flex;
+    padding: 25px 0px;
+    border-bottom: 1px solid #4a535f;
+    border-top: 1px solid #4a535f;
     width: 80%;
     justify-content: space-between;
 }

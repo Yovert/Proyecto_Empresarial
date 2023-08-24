@@ -88,36 +88,56 @@ body{
 }
 
 /* contenido de la seccion #1 */
-.seccion_Introduction{
+.seccion_Graphics{
+    padding: 20vh 10vw;
+}
+.contenido_Graphics{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40vh;
+    row-gap: 25vh;
+}
+.espacio_Icons{
     display: flex;
     flex-direction: column;
-    padding: 10% 0 0px 0px;
+    gap: 1vh;
+}
+.espacio_Icons h3{
+    font-size: 30px;
+}
+.parrafos_separados{
+   display: flex;
+   flex-direction: column;
+   gap: 1.5vh;
+}
+span{
+    color: #D1B06B;
+    font-family: 'Outfit', sans-serif;
+
+}
+.contenedor_contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.contenido_espaciado{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.contenido_titulos{
+    display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 1vw;
 }
-.img_museo{
-    width: 80vw;
+.contenido_titulos h5{
+    font-size: 20px;
+    font-weight: 300;
+    color: #D1B06B;
 }
-.Introduction_contenido{
-    display: flex;
-    flex-direction: column;
-    width: 80vw;
-    gap: 30px;
-    border-bottom: 1px solid #4a535f;
-    padding-bottom: 10%;
-}
-.Introduction_contenido h3{
-    font-size:25px;
-}
-ul{
-    margin-left: 35px;
-    display: grid;
-    gap: 15px;
-}
-ol{
-    margin-left: 15px;
-    display: grid;
-    gap: 15px;
+.contenido_titulos h6{
+    font-size: 15px;
+    color: #D1B06B;
 }
 
 /* contenido de la seccion footer */

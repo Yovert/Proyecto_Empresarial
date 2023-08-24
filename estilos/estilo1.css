@@ -11,7 +11,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #1f2732;
-    height: 30vw;
+    
 }
 .hed__mover{
     display: flex;
@@ -92,6 +92,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding-bottom: 50px;
 }
 .img__center picture{
    display: flex;
@@ -168,14 +169,8 @@ body{
 .bd__infor{
     background-color: white;
     padding: 30px;
-    display: flex;
-    flex-direction: column;
 }
-.bd__informacion{
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-}
+
 .bd__informacion p{
     border-bottom: 1px solid black;
     
@@ -187,6 +182,7 @@ body{
     align-items: center;
     gap: 10px;
 }
+
 .bd__grid{
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -289,7 +285,7 @@ body{
  
 .infor__post{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 30px;
 }
