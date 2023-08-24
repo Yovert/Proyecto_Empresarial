@@ -94,6 +94,9 @@ body{
     gap: 10px;
     padding-bottom: 50px;
 }
+.infor__texto{
+    color: white;
+}
 .cards__central{
     display: flex;
     align-items: center;
@@ -188,7 +191,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: rgba(255, 255, 255, 0.646);
+    color: rgba(255, 255, 255, 0.909);
 }
 .final__lado{
     display: flex;
@@ -204,7 +207,7 @@ body{
 .final__contenedor p{
     font-size: 13px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.43);
+    color: rgba(255, 255, 255, 0.876);
 }
 .final__lado1{
     display: flex;
