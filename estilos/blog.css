@@ -199,8 +199,9 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: rgba(255, 255, 255, 0.646);
+    color: rgba(255, 255, 255, 0.866);
 }
+
 .final__lado{
     display: flex;
     gap: 30px;
@@ -215,7 +216,7 @@ body{
 .final__contenedor p{
     font-size: 13px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.43);
+    color: rgba(255, 255, 255, 0.841);
 }
 .final__lado1{
     display: flex;

@@ -13,6 +13,7 @@ body{
     background-color: #1f2732;
     
 }
+
 .hed__mover{
     display: flex;
     align-items: center;
@@ -93,6 +94,9 @@ body{
     align-items: center;
     gap: 10px;
     padding-bottom: 50px;
+}
+.infor__texto h2{
+    color: white;
 }
 .explore__info{
     display: flex;
@@ -320,6 +324,9 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+.final__h3{
+    color: rgba(255, 255, 255, 0.918);
+}
 .final__lado{
     display: flex;
     gap: 30px;
@@ -334,6 +341,7 @@ body{
 .final__contenedor p{
     font-size: 13px;
     cursor: pointer;
+    
 }
 .final__lado1{
     display: flex;
@@ -368,6 +376,7 @@ body{
     align-items: center;
     justify-content:space-around;
     padding: 50px;
+    
 }
 .infor__post picture{
     display: flex;
