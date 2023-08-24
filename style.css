@@ -37,6 +37,7 @@ body{
     color: #fff;
     background: #1F2732;
     background-image: url(./Repositorio_Homepage/Photo_fondo.png);
+    background-repeat: no-repeat;
 }
 .titulo_Business{
     display: flex;
