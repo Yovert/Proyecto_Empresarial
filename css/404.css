@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Outfit:wght@300;400;600&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Luxurious+Script&family=Outfit:wght@300;400;600&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Luxurious+Script&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+}
+h2{
+    font-family: 'Cormorant Garamond', serif;
+}
+h3{
+    font-family: 'Cormorant Garamond', serif;
+}
+h4{
+    font-family: 'Cormorant Garamond', serif;
+}
+p{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    width: 100%;
+}
+.seccion_Attorneyster{
+    padding: 0px  10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15vh;
+    color: #fff;
+    background: #1F2732;
+}
+.titulo_Business{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.titulo_Business h2{
+    font-size: 40px;
+}
+.contenedor_banner{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #353c46 ;
+    padding: 20px 0px;
+}
+.titulo_logo{
+    font-size: 50px;
+}
+.contenedor_banner_contenido{
+    display: flex;
+    align-items: center;
+}
+.contenedor_banner--espacio{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.contenedor_espacio{
+    gap: 10px;
+}
+.imagen_cart{
+    width: 27%;
+}
+.boton_consultar button{
+    font-family: 'Outfit', sans-serif;
+    width: 15vw;
+    height: 10vh;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    font-size: 18px;
+    color: #fff;
+}
+.contenedor_contactos{
+    display: flex;
+    gap: 25px;
+}
+.img_contacto{
+    border: 2px solid #D1B06B;
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    align-content: center;
+}
+.text_contacto{
+    display: flex;
+    gap: 20px;
+}
+.contenedor_banner_contenido--espacio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.texto_dorado{
+    color: #D1B06B;
+}
+.Tarea__contenido--404{
+    width: 35vw;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.contenido--404_image img{
+    width: 100%;
+}
+.contenido--404_image{
+    padding-bottom: 20px;
+}
+.Tarea__contenido--404 h2{
+    font-size: 34px;
+    padding: 10px 0px;
+}
+.Tarea__contenido--404 p{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.contenido--404_btn{
+    padding: 10px 0px;
+    margin: auto
+}
+.contenido--404_btn button{
+    width: 14vw;
+    height: 10vh;
+    font-family: 'Outfit', sans-serif;
+    background: #D1B06B;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 20vh 0px;
+    background: #1F2732;
+    color: #fff;
+}
+.titulo_Attorneyster{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.icono_lateral{
+    width: 25vw;
+}
+.contenedor_Attorneyster{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.titulos_footer{
+    font-size: 25px;
+    padding: 20px 0px;
+    border-top: 1px solid #4a535f;
+    border-bottom: 1px solid #4a535f;
+}
+.contenido_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    font-weight: 100;
+}
+.footer--dividido{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    font-weight: 100;
+}
+.parrafos_divididos{
+    padding-bottom: 6px;
+}
+.contenedor_Copyright{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 25px 0px;
+    border-bottom: 1px solid #3A4553;
+    border-top: 1px solid #3A4553;
+}
+.footer_linear{
+    display: flex;
+    gap: 3px;
+}
+.footer_separacion{
+    display: flex;
+    gap: 20px;
+}
+.footer_logos{
+    display: flex;
+    gap: 20px;
+}
