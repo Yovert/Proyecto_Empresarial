@@ -224,7 +224,7 @@ footer{
 }
 .contenedor_Attorneyster{
     display: flex;
-<<<<<<< HEAD
+
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -234,8 +234,6 @@ footer{
 .final__lado{
     display: flex;
     gap: 30px;
-    
-=======
     width: 80%;
     justify-content: space-between;
 }
@@ -244,7 +242,6 @@ footer{
     padding: 20px 0px;
     border-top: 1px solid #4a535f;
     border-bottom: 1px solid #4a535f;
->>>>>>> Yovert
 }
 .contenido_footer{
     display: flex;
@@ -253,21 +250,13 @@ footer{
     padding-top: 20px;
     font-weight: 100;
 }
-<<<<<<< HEAD
+
 .final__contenedor p{
     font-size: 13px;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.841);
 }
-.final__lado1{
-=======
-.footer--dividido{
->>>>>>> Yovert
-    display: flex;
-    gap: 20px;
-    padding-top: 20px;
-    font-weight: 100;
-}
+
 .parrafos_divididos{
     padding-bottom: 6px;
 }

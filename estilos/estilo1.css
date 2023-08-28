@@ -268,15 +268,12 @@ footer{
 }
 .contenedor_Attorneyster{
     display: flex;
-<<<<<<< HEAD
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: rgba(255, 255, 255, 0.875);
-=======
     width: 80%;
     justify-content: space-between;
->>>>>>> Yovert
 }
 .titulos_footer{
     font-size: 25px;
@@ -291,16 +288,12 @@ footer{
     padding-top: 20px;
     font-weight: 100;
 }
-<<<<<<< HEAD
 .final__contenedor p{
     font-size: 13px;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.853);
 }
-.final__lado1{
-=======
 .footer--dividido{
->>>>>>> Yovert
     display: flex;
     gap: 20px;
     padding-top: 20px;

@@ -48,12 +48,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-<<<<<<< HEAD
-
-.hed__mover{
-=======
 .titulo_Business{
->>>>>>> Yovert
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,11 +111,9 @@ body{
     align-items: center;
     gap: 10px;
 }
-<<<<<<< HEAD
 .infor__texto h2{
     color: white;
 }
-=======
 .texto_dorado{
     color: #D1B06B;
 }
@@ -133,8 +126,6 @@ body{
     bottom: 3vh;
 }
 
-
->>>>>>> Yovert
 .explore__info{
     display: flex;
     align-items: center;
@@ -359,21 +350,14 @@ footer{
     width: 80%;
     justify-content: space-between;
 }
-<<<<<<< HEAD
 .final__h3{
     color: rgba(255, 255, 255, 0.918);
 }
-.final__lado{
-    display: flex;
-    gap: 30px;
-    
-=======
 .titulos_footer{
     font-size: 25px;
     padding: 20px 0px;
     border-top: 1px solid #4a535f;
     border-bottom: 1px solid #4a535f;
->>>>>>> Yovert
 }
 .contenido_footer{
     display: flex;
@@ -382,16 +366,12 @@ footer{
     padding-top: 20px;
     font-weight: 100;
 }
-<<<<<<< HEAD
 .final__contenedor p{
     font-size: 13px;
     cursor: pointer;
     
 }
-.final__lado1{
-=======
 .footer--dividido{
->>>>>>> Yovert
     display: flex;
     gap: 20px;
     padding-top: 20px;
@@ -419,7 +399,6 @@ footer{
 .footer_logos{
     display: flex;
     gap: 20px;
-<<<<<<< HEAD
     padding-left: 20px;
     padding-top: 25px;   
 }
@@ -450,8 +429,6 @@ footer{
     display: flex;
     align-items: center;
     gap: 8px;
-=======
->>>>>>> Yovert
 }
 .Btn_siguiente button{
     width: 160px;
