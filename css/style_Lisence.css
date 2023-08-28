@@ -89,13 +89,15 @@ body{
 
 /* contenido de la seccion #1 */
 .seccion_Graphics{
-    padding: 20vh 10vw;
+    padding: 20vh 10vw 0px 10vw;
 }
 .contenido_Graphics{
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 40vh;
     row-gap: 25vh;
+    border-bottom: 1px solid #4a535f;
+    padding-bottom: 30vh;
 }
 .espacio_Icons{
     display: flex;
